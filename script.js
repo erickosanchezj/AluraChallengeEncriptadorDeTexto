@@ -19,7 +19,7 @@ document.getElementById("botonDesencriptar").addEventListener("click", function(
 document.getElementById("copyButton").addEventListener("click", function() {
     let outputText = document.getElementById("outputText").textContent;
     navigator.clipboard.writeText(outputText).then(() => {
-        alert("Texto copiado al portapapeles:" + outputText);
+        alert("Texto copiado al portapapeles: " + outputText);
     });
 });
 
