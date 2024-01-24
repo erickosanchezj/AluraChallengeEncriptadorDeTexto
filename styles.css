@@ -1,0 +1,45 @@
+body {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+/* Other styles */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#textoEntrada {
+    font-size: 24px;
+    width: 80%;
+    height: 100px;
+}
+
+#outputContainer {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+button {
+    font-size: 24px;
+    background-color: #40ad43;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(123, 40%, 45%);
+    box-shadow: 0 2px #666;
+    transform: translateY(5px);
+}
+
+footer {
+    margin-top: 30px;
+}
